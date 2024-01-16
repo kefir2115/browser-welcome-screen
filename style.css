@@ -1,0 +1,576 @@
+body {
+  background-color: rgb(20, 20, 20);
+  color: rgb(185, 185, 185);
+  max-width: 100%;
+}
+body b {
+  color: rgb(140, 81, 163);
+  text-shadow: 0 0 3px;
+}
+body .h-1 {
+  max-height: 1vh !important;
+  height: 1vh !important;
+}
+body .h-2 {
+  max-height: 2vh !important;
+  height: 2vh !important;
+}
+body .h-3 {
+  max-height: 3vh !important;
+  height: 3vh !important;
+}
+body .h-4 {
+  max-height: 4vh !important;
+  height: 4vh !important;
+}
+body .h-5 {
+  max-height: 5vh !important;
+  height: 5vh !important;
+}
+body .h-6 {
+  max-height: 6vh !important;
+  height: 6vh !important;
+}
+body .h-7 {
+  max-height: 7vh !important;
+  height: 7vh !important;
+}
+body .h-8 {
+  max-height: 8vh !important;
+  height: 8vh !important;
+}
+body .h-9 {
+  max-height: 9vh !important;
+  height: 9vh !important;
+}
+body .h-10 {
+  max-height: 10vh !important;
+  height: 10vh !important;
+}
+body .h-11 {
+  max-height: 11vh !important;
+  height: 11vh !important;
+}
+body .h-12 {
+  max-height: 12vh !important;
+  height: 12vh !important;
+}
+body .h-13 {
+  max-height: 13vh !important;
+  height: 13vh !important;
+}
+body .h-14 {
+  max-height: 14vh !important;
+  height: 14vh !important;
+}
+body .h-15 {
+  max-height: 15vh !important;
+  height: 15vh !important;
+}
+body .h-16 {
+  max-height: 16vh !important;
+  height: 16vh !important;
+}
+body .h-17 {
+  max-height: 17vh !important;
+  height: 17vh !important;
+}
+body .h-18 {
+  max-height: 18vh !important;
+  height: 18vh !important;
+}
+body .h-19 {
+  max-height: 19vh !important;
+  height: 19vh !important;
+}
+body .h-20 {
+  max-height: 20vh !important;
+  height: 20vh !important;
+}
+body .h-21 {
+  max-height: 21vh !important;
+  height: 21vh !important;
+}
+body .h-22 {
+  max-height: 22vh !important;
+  height: 22vh !important;
+}
+body .h-23 {
+  max-height: 23vh !important;
+  height: 23vh !important;
+}
+body .h-24 {
+  max-height: 24vh !important;
+  height: 24vh !important;
+}
+body .h-25 {
+  max-height: 25vh !important;
+  height: 25vh !important;
+}
+body .h-26 {
+  max-height: 26vh !important;
+  height: 26vh !important;
+}
+body .h-27 {
+  max-height: 27vh !important;
+  height: 27vh !important;
+}
+body .h-28 {
+  max-height: 28vh !important;
+  height: 28vh !important;
+}
+body .h-29 {
+  max-height: 29vh !important;
+  height: 29vh !important;
+}
+body .h-30 {
+  max-height: 30vh !important;
+  height: 30vh !important;
+}
+body .h-31 {
+  max-height: 31vh !important;
+  height: 31vh !important;
+}
+body .h-32 {
+  max-height: 32vh !important;
+  height: 32vh !important;
+}
+body .h-33 {
+  max-height: 33vh !important;
+  height: 33vh !important;
+}
+body .h-34 {
+  max-height: 34vh !important;
+  height: 34vh !important;
+}
+body .h-35 {
+  max-height: 35vh !important;
+  height: 35vh !important;
+}
+body .h-36 {
+  max-height: 36vh !important;
+  height: 36vh !important;
+}
+body .h-37 {
+  max-height: 37vh !important;
+  height: 37vh !important;
+}
+body .h-38 {
+  max-height: 38vh !important;
+  height: 38vh !important;
+}
+body .h-39 {
+  max-height: 39vh !important;
+  height: 39vh !important;
+}
+body .h-40 {
+  max-height: 40vh !important;
+  height: 40vh !important;
+}
+body .h-41 {
+  max-height: 41vh !important;
+  height: 41vh !important;
+}
+body .h-42 {
+  max-height: 42vh !important;
+  height: 42vh !important;
+}
+body .h-43 {
+  max-height: 43vh !important;
+  height: 43vh !important;
+}
+body .h-44 {
+  max-height: 44vh !important;
+  height: 44vh !important;
+}
+body .h-45 {
+  max-height: 45vh !important;
+  height: 45vh !important;
+}
+body .h-46 {
+  max-height: 46vh !important;
+  height: 46vh !important;
+}
+body .h-47 {
+  max-height: 47vh !important;
+  height: 47vh !important;
+}
+body .h-48 {
+  max-height: 48vh !important;
+  height: 48vh !important;
+}
+body .h-49 {
+  max-height: 49vh !important;
+  height: 49vh !important;
+}
+body .h-50 {
+  max-height: 50vh !important;
+  height: 50vh !important;
+}
+body .h-51 {
+  max-height: 51vh !important;
+  height: 51vh !important;
+}
+body .h-52 {
+  max-height: 52vh !important;
+  height: 52vh !important;
+}
+body .h-53 {
+  max-height: 53vh !important;
+  height: 53vh !important;
+}
+body .h-54 {
+  max-height: 54vh !important;
+  height: 54vh !important;
+}
+body .h-55 {
+  max-height: 55vh !important;
+  height: 55vh !important;
+}
+body .h-56 {
+  max-height: 56vh !important;
+  height: 56vh !important;
+}
+body .h-57 {
+  max-height: 57vh !important;
+  height: 57vh !important;
+}
+body .h-58 {
+  max-height: 58vh !important;
+  height: 58vh !important;
+}
+body .h-59 {
+  max-height: 59vh !important;
+  height: 59vh !important;
+}
+body .h-60 {
+  max-height: 60vh !important;
+  height: 60vh !important;
+}
+body .h-61 {
+  max-height: 61vh !important;
+  height: 61vh !important;
+}
+body .h-62 {
+  max-height: 62vh !important;
+  height: 62vh !important;
+}
+body .h-63 {
+  max-height: 63vh !important;
+  height: 63vh !important;
+}
+body .h-64 {
+  max-height: 64vh !important;
+  height: 64vh !important;
+}
+body .h-65 {
+  max-height: 65vh !important;
+  height: 65vh !important;
+}
+body .h-66 {
+  max-height: 66vh !important;
+  height: 66vh !important;
+}
+body .h-67 {
+  max-height: 67vh !important;
+  height: 67vh !important;
+}
+body .h-68 {
+  max-height: 68vh !important;
+  height: 68vh !important;
+}
+body .h-69 {
+  max-height: 69vh !important;
+  height: 69vh !important;
+}
+body .h-70 {
+  max-height: 70vh !important;
+  height: 70vh !important;
+}
+body .h-71 {
+  max-height: 71vh !important;
+  height: 71vh !important;
+}
+body .h-72 {
+  max-height: 72vh !important;
+  height: 72vh !important;
+}
+body .h-73 {
+  max-height: 73vh !important;
+  height: 73vh !important;
+}
+body .h-74 {
+  max-height: 74vh !important;
+  height: 74vh !important;
+}
+body .h-75 {
+  max-height: 75vh !important;
+  height: 75vh !important;
+}
+body .h-76 {
+  max-height: 76vh !important;
+  height: 76vh !important;
+}
+body .h-77 {
+  max-height: 77vh !important;
+  height: 77vh !important;
+}
+body .h-78 {
+  max-height: 78vh !important;
+  height: 78vh !important;
+}
+body .h-79 {
+  max-height: 79vh !important;
+  height: 79vh !important;
+}
+body .h-80 {
+  max-height: 80vh !important;
+  height: 80vh !important;
+}
+body .h-81 {
+  max-height: 81vh !important;
+  height: 81vh !important;
+}
+body .h-82 {
+  max-height: 82vh !important;
+  height: 82vh !important;
+}
+body .h-83 {
+  max-height: 83vh !important;
+  height: 83vh !important;
+}
+body .h-84 {
+  max-height: 84vh !important;
+  height: 84vh !important;
+}
+body .h-85 {
+  max-height: 85vh !important;
+  height: 85vh !important;
+}
+body .h-86 {
+  max-height: 86vh !important;
+  height: 86vh !important;
+}
+body .h-87 {
+  max-height: 87vh !important;
+  height: 87vh !important;
+}
+body .h-88 {
+  max-height: 88vh !important;
+  height: 88vh !important;
+}
+body .h-89 {
+  max-height: 89vh !important;
+  height: 89vh !important;
+}
+body .h-90 {
+  max-height: 90vh !important;
+  height: 90vh !important;
+}
+body .h-91 {
+  max-height: 91vh !important;
+  height: 91vh !important;
+}
+body .h-92 {
+  max-height: 92vh !important;
+  height: 92vh !important;
+}
+body .h-93 {
+  max-height: 93vh !important;
+  height: 93vh !important;
+}
+body .h-94 {
+  max-height: 94vh !important;
+  height: 94vh !important;
+}
+body .h-95 {
+  max-height: 95vh !important;
+  height: 95vh !important;
+}
+body .h-96 {
+  max-height: 96vh !important;
+  height: 96vh !important;
+}
+body .h-97 {
+  max-height: 97vh !important;
+  height: 97vh !important;
+}
+body .h-98 {
+  max-height: 98vh !important;
+  height: 98vh !important;
+}
+body .h-99 {
+  max-height: 99vh !important;
+  height: 99vh !important;
+}
+body .h-100 {
+  max-height: 100vh !important;
+  height: 100vh !important;
+}
+body ::-webkit-scrollbar {
+  width: 1rem;
+}
+body ::-webkit-scrollbar-track {
+  background-color: rgb(37, 37, 37);
+  border-radius: 1rem;
+}
+body ::-webkit-scrollbar-thumb {
+  background-color: rgb(140, 81, 163);
+  border-radius: 1rem;
+}
+
+.hover-item {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1rem;
+  cursor: pointer;
+}
+.hover-item .icon {
+  font-size: 150%;
+  transition: font-size 0.2s ease;
+  padding: 0.5rem;
+  border-radius: 100%;
+  background-color: rgb(140, 81, 163);
+}
+.hover-item .title {
+  width: 0%;
+  overflow: hidden;
+  opacity: 0;
+  transition: width 0.2s ease, opacity 0.2s ease;
+}
+.hover-item:hover .icon {
+  font-size: 100%;
+  padding: 0.25rem;
+}
+.hover-item:hover .title {
+  width: 100%;
+  opacity: 1;
+}
+
+.settings-list {
+  overflow-y: scroll;
+  max-height: 50%;
+}
+
+.setting {
+  width: 50%;
+  transition: background-color 0.2s ease;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.setting span {
+  align-self: center;
+  font-size: 400%;
+  margin-right: 2rem;
+  width: 5%;
+}
+.setting .texts {
+  width: 70%;
+}
+.setting .texts .title {
+  font-size: 250%;
+  color: rgb(140, 81, 163);
+  font-weight: 700;
+}
+.setting .texts .description {
+  font-size: 150%;
+  margin-left: 0.5rem;
+}
+.setting .setting-input-text {
+  align-self: center;
+  font-size: 150%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  outline: none;
+  color: rgb(185, 185, 185);
+}
+.setting .setting-input-checkbox {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.1);
+  border: none;
+  outline: none;
+}
+.setting:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content .view {
+  text-align: center;
+  height: 100vh;
+}
+.content .setup-list {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content .setup-list .setting .name {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.content .setup-list .setting * {
+  float: left;
+}
+.content .setup-list .setting select {
+  background-color: rgb(140, 81, 163);
+  color: rgb(216, 216, 216);
+  padding: 0.2rem;
+  border-radius: 0.2rem 0.2rem 0 0;
+  border: none;
+}
+.content .setup-list .setting select:focus {
+  outline: none;
+}
+.content .setup-list .setting input {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(185, 185, 185);
+  border: 1px black solid;
+  border-radius: 1rem;
+}
+.content .setup-list .setting input:focus {
+  outline: none;
+}
+.content .setup-list button {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(185, 185, 185);
+  border: 1px black solid;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+}
+.content .setup-list button:focus {
+  outline: none;
+}
+.content .view-main .top {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.content .view-main input.search-field {
+  background-color: rgb(37, 37, 37);
+  color: rgb(185, 185, 185);
+  border: 1px black solid;
+  border-radius: 1rem;
+  font-size: 2rem;
+  position: relative;
+}
+.content .view-main input.search-field:focus {
+  outline: none;
+}
+.content .view-main button {
+  background-color: rgb(37, 37, 37);
+  color: rgb(185, 185, 185);
+  border: 1px black solid;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+  transition: background-color 0.25s ease;
+}
+.content .view-main button:focus {
+  outline: none;
+}
+.content .view-main button:hover {
+  background-color: rgb(140, 81, 163);
+}/*# sourceMappingURL=style.css.map */

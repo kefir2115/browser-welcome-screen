@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to kefirgo</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/44a5136141.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid content">
+            <div class="view view-welcome d-flex flex-column align-items-center justify-content-center align-self-center">
+                <div class="welcome-info">
+                    <h1>Hello there!</h1>
+                    <h2>Looks like you never used this website before!</h2>
+                    <h3>Let me introduce you to <b>kefirgo</b>!</h3>
+                    <h4>Free web welcome screen that works on every device!</h4>
+                </div>
+                <div class="setup-list">
+                    <h3>Lets adjust <b>kefirgo</b> to your preferences!</h3>
+                    <h5>(You can change that later)</h5>
+                    <div class="setting">
+                        <div class="name">What's your language?</div>
+                        <select class="lang">
+                            <option>English</option>
+                            <option>Polish</option>
+                            <option>Lolcat</option>
+                        </select>
+                    </div>
+                    <div class="setting">
+                        <div class="name">What search engine do you want to use?</div>
+                        <select class="engine">
+                            <option>Google</option>
+                            <option>DuckDuckGo</option>
+                            <option>Yahoo</option>
+                            <option>You.com</option>
+                            <option>Brave Search</option>
+                        </select>
+                    </div>
+                    <div class="setting">
+                        <div class="name">How do you want me to call you?</div>
+                        <input type="text" maxlength="32" placeholder="John Doe"  class="name-input">
+                    </div>
+                    <button class="finish">Start using <b>kefirgo</b></button>
+                </div>
+            </div>
+            <div class="view view-main d-flex align-items-center justify-content-center flex-column row">
+                <div class="col top d-flex flex-row justify-content-end">
+                    <div class="row d-flex flex-row justify-content-end h-10">
+                        <div class="hover-item settings-button">
+                            <span class="fa-solid fa-gear icon"></span>
+                            <div class="title">Settings</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex flex-column align-items-center">
+                        <h2 class="col">$search-title$</h2>
+                        <div class="col-6 d-flex justify-content-center">
+                            <input type="text" class="search-field col-10" placeholder="$search-placeholder$">
+                            <button class="search-btn col-2">$search-button$</button>
+                        </div>
+                        <button onclick="reset();" class="col-2">$settings-reset$</button>
+                    </div>
+                </div>
+            </div>
+            <div class="view view-settings d-flex align-items-center flex-column row">
+                <div class="col top d-flex flex-row justify-content-end h-10">
+                    <div class="hover-item back-button">
+                        <span class="fa-solid fa-arrow-left icon"></span>
+                        <div class="title">Go&nbsp;back</div>
+                    </div>
+                </div>
+                <div class="col d-flex flex-column align-items-center text-start settings-list">
+                    <!-- <div class="setting">
+                        <span class="fa-solid fa-circle-info"></span>
+                        <div class="texts">
+                            <div class="title">Example title</div>
+                            <div class="description">Example description</div>
+                        </div>
+                        <input type="text" class="setting-input" placeholder="Example setting">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

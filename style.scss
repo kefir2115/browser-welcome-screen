@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: rgb(185, 185, 185);
+    max-width: 100%;
+    b {
+        color: rgb(140, 81, 163);
+        text-shadow: 0 0 3px;
+    }
+    @for $i from 1 through 100 {
+        .h-#{$i} {
+            max-height: #{$i}vh !important;
+            height: #{$i}vh !important;
+        }
+    }
+    ::-webkit-scrollbar {
+        width: 1rem;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: rgb(37, 37, 37);
+        border-radius: 1rem;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(140, 81, 163);
+        border-radius: 1rem;
+    }
+}
+.hover-item {
+    $d: .2s;
+    height: fit-content;
+    padding: 1rem;
+    cursor: pointer;
+    .icon {
+        font-size: 150%;
+        transition: font-size $d ease;
+        padding: .5rem;
+        border-radius: 100%;
+        background-color: rgb(140, 81, 163);
+    }
+    .title {
+        width: 0%;
+        overflow: hidden;
+        opacity: 0;
+        
+        transition: width $d ease, opacity $d ease;
+    }
+    &:hover {
+        .icon {
+            font-size: 100%;
+            padding: .25rem;
+        }
+        .title {
+            width: 100%;
+            opacity: 1;
+        }
+    }
+}
+.settings-list {
+    overflow-y: scroll;
+    max-height: 50%;
+    
+}
+.setting {
+    width: 50%;
+    transition: background-color .2s ease;
+    padding: 1rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    span {
+        align-self: center;
+        font-size: 400%;
+        margin-right: 2rem;
+        width: 5%;
+    }
+    .texts {
+        width: 70%;
+        .title {
+            font-size: 250%;
+            color: rgb(140, 81, 163);
+            font-weight: 700;
+        }
+        .description {
+            font-size: 150%;
+            margin-left: .5rem;
+        }
+    }
+    .setting-input-text {
+        align-self: center;
+        font-size: 150%;
+        background-color: rgb(255, 255, 255, 0.1);
+        border: none;
+        outline: none;
+        color: rgb(185, 185, 185);
+    }
+    .setting-input-checkbox {
+        width: 100%;
+        color: rgb(255, 255, 255, 0.1);
+        border: none;
+        outline: none;
+    }
+    &:hover {
+        background-color: rgb(255, 255, 255, 0.1);
+    }
+}
+.content {
+    .view {
+        text-align: center;
+        height: 100vh;
+    }
+    .setup-list {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .setting {
+            .name {
+                margin-right: 1rem;
+                font-size: 1.5rem;
+            }
+            * {
+                float: left;
+            }
+            select {
+                background-color: rgb(140, 81, 163);
+                color: rgb(216, 216, 216);
+                padding: .2rem;
+                border-radius: .2rem .2rem 0 0;
+
+                border: none;
+                &:focus {
+                    outline: none;
+                }
+            }
+            input {
+                background-color: rgb(0, 0, 0, 0);
+                color: rgb(185, 185, 185);
+                border: 1px black solid;
+                border-radius: 1rem;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+        button {
+            background-color: rgb(0, 0, 0, 0);
+            color: rgb(185, 185, 185);
+            border: 1px black solid;
+            border-radius: 1rem;
+            padding: 0 1rem;
+            font-size: 2rem;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .view-main {
+        .top {
+            height: fit-content;
+        }
+        input.search-field {
+            background-color: rgb(37, 37, 37);
+            color: rgb(185, 185, 185);
+            border: 1px black solid;
+            border-radius: 1rem;
+            font-size: 2rem;
+            position: relative;
+            &:focus {
+                outline: none;
+            }
+        }
+        button {
+            background-color: rgb(37, 37, 37);
+            color: rgb(185, 185, 185);
+            border: 1px black solid;
+            border-radius: 1rem;
+            padding: 0 1rem;
+            font-size: 2rem;
+            transition: background-color .25s ease;
+            &:focus {
+                outline: none;
+            }
+            &:hover {
+                background-color: rgb(140, 81, 163);
+            }
+        }
+    }
+}
